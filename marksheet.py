@@ -5,9 +5,9 @@ pak_Studies = int(input("enter Pakitan Studies marks"))
 english = int(input("enter English marks"))
 sum = biology+chemistry+sindhi+pak_Studies+english
 percentage= (sum*100)/500
-if biology <==32 and chemistry <==32 and sindhi <==32 and pak_Studies <==32 and english <==32:
-    print (" your garde is F")
-elif percentage >=80 :
+# if biology <=32 and chemistry <=32 and sindhi <=32 and pak_Studies <=32 and english <=32:
+#     print (" your garde is F")
+if percentage >=80 :
     print ("Your Grade  is A+\nPercentage", percentage)
 elif percentage >=70 :
     print ("Your Grade is A\nPercentage", percentage)
